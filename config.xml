@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Configuration</comment>
+<entry key="instructions">START        -&gt; starts the application
+F10 (NEXT) -&gt; continues to next task
+
+Purpose:
+Fair time distribution while attempting an online exam.
+
+How it works?
+- Start the program when starting an exam
+- Application fairly distributes time for each task
+- You get informed about which task number you are on
+- You get informed 10 seconds before your time on current task is about to run out
+- When task is finished sooner you press NEXT (F10 on keyboard)
+- Application then recalculates your total time for each task and you get your time evenly distributed
+</entry>
+<entry key="seconds">60</entry>
+<entry key="window_width">300</entry>
+<entry key="window_height">130</entry>
+<entry key="tasks">3</entry>
+</properties>
